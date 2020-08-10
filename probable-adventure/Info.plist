@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>InstagramClientId</key>
+	<string>086b8c33ec19428e8a7ab120684b38ba</string>
+	<key>InstagramRedirectURI</key>
+	<string>http://ec2-3-17-160-174.us-east-2.compute.amazonaws.com/development/</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
