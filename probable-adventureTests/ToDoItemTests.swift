@@ -43,4 +43,15 @@ class ToDoItemTests: XCTestCase {
         let item = ToDoItem(title: "",location: location)
         XCTAssertEqual(item.location?.name, "HR","Should set location")
     }
+    
+    func test_CheckTwoItemsAreEqual(){
+        let first = ToDoItem(title: "HR")
+        let second = ToDoItem(title: "HR")
+        XCTAssertEqual(first, second)
+    }
+    func test_ItemsWhenLocationDiffer_areNotEqual(){
+        let first = ToDoItem(title: "",location: Location(name: "HR"))
+        let second = ToDoItem(title: "",location: Location(name: "CHD"))
+        XCTAssertNotEqual(first, second)
+    }
 }
